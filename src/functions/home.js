@@ -4,7 +4,7 @@ const img = document.createElement('img');
 const p = document.createElement('p');
 
 h1.textContent = 'Best Restaurant EVER';
-img.setAttribute('src', 'restaurant_page/src/assets/imgs/restaurant.jpg');
+img.setAttribute('src', '/src/assets/imgs/restaurant.jpg');
 p.textContent = 'Das ist eine schöne Platze mit große See. Es gibt viele Berge. Das Restaurant ist super cool.';
 
 home.appendChild(h1);
