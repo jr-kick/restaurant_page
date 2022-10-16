@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-      clean: true,
+    clean: true,
   },
 
   plugins: [
@@ -19,15 +19,10 @@ module.exports = {
 
   module: {
     rules: [
-
       {
         test: /\.(jpg)$/i,
         type: "asset/resource",
       },
-      {
-        test: /\.(html)$/i,
-        loader: 'html-loader',
-      }
       ],
      },
 };
