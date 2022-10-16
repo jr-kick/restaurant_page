@@ -1,7 +1,6 @@
 import home from './functions/home';
 import menu from './functions/menu';
 import contact from './functions/contact';
-import MyImage from './my-image.png'
 
 (() => {
     const buttons = document.querySelectorAll('#buttons');
